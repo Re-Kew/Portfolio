@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/general.css">
+
+    <script src="/jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".mobile-tap-area").click(function(){
+			    $(".toggle-mobile-first").toggle();
+			    $(".toggle-mobile-second").toggle();
+			});
+		});
+	</script>
+
+</head>
+<body class="bg-black">
+
+    <div class="hide-mobile mobile-tap-area">
+        <div class="max-width">
+            <div class="text-position">
+                <h1>
+                    <div class="txt-white hide-text">
+                        <div class="animate toggle-mobile-first">Hello.</div>
+                    </div>
+                    <div class="txt-red hide-text">
+                        <div class="animate delay04 toggle-mobile-first">I am</div>
+                    </div>
+                    <div class="txt-red hide-text">
+                        <div class="animate delay08 toggle-mobile-first">Maxim</div>
+                    </div>
+                </h1>
+            </div>
+        </div>
+        <div class="tap-indication">Tap anywhere</div>
+    </div>
+    <div class="max-width">
+        <div class="text-position">
+            <h1>
+                <div class="hide-text">
+                    <a href="about.html">
+                        <div class="animate txt-white on-hover-40 hide-web label-hello "></div>
+                        <div class="animate txt-white on-hover-40 hide-mobile toggle-mobile-second">About</div>
+                    </a>
+                </div>
+                    <div class="hide-text">
+                        <a href="work.html">
+                            <div class="animate txt-red on-hover-40 delay04 hide-web label-iam"></div>
+                            <div class="animate txt-red on-hover-40 delay04 hide-mobile toggle-mobile-second">Work</div>
+                        </a>
+                    </div>
+                    <div class="hide-text">
+                        <a href="contact.html">
+                            <div class="animate txt-red on-hover-40 delay08 hide-web label-maxim"></div>
+                            <div class="animate txt-red on-hover-40 delay08 hide-mobile toggle-mobile-second">Contact</div>
+                        </a>
+                    </div>
+            </h1>
+        </div>
+    </div>
+</body>
+</html>

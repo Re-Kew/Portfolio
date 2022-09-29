@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;600;700&display=swap');
+
+/* ------ Grid ------ */
+
+/* Backgrounds */
+
+.bg-black {
+    background: #000000;
+}
+.bg-white {
+    background: #ffffff;
+}
+
+.max-width {
+    max-width: 68%;
+    max-width: 21.5em;
+    margin: 0 auto;
+}
+
+/* main text */
+
+.text-position {
+    position: absolute;
+    height: 100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-align-items: center; /* Safari */
+    align-items:   center;
+}
+
+.label-hello:after{
+    content:"Hello.";
+}
+.label-hello:hover:after{
+    content: "About";
+}
+.label-iam:after{
+    content:"I am";
+}
+.label-iam:hover:after{
+    content:"Work";
+}
+.label-maxim:after{
+    content:"Maxim";
+}
+.label-maxim:hover:after{
+    content:"Contact";
+}
+
+
+.animate {
+    -webkit-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -moz-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -webkit-animation-fill-mode:backwards;
+    -moz-animation-fill-mode:backwards;
+    animation-fill-mode:backwards;
+}
+
+
+
+.hide-mobile-second {
+    display: none;
+}
+
+
+.tap-indication {
+    text-align: center;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600px;
+    color: #ffffff;
+    position: fixed;
+    bottom: 4%;
+    font-size: 0.6em;
+    font-size: 3.6vm;
+    font-size: 3.6vmin;
+    animation: bounce 1s infinite alternate;
+
+    -webkit-animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
+    -moz-animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
+    animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-8px);
+    }
+}
+
+
+                                                /*Sorry*/
+
+
+.sorry-box{
+    width: 100%;
+}
+.glitch {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #fff;
+    animation: glitch 0.8s linear infinite;
+}
+
+@keyframes glitch {
+    0%, 100% {
+        text-shadow: -3.5px -3.5px 0 #0003b1, 
+                        3.5px 3.5px 0 #f00;
+    }
+    25% {
+        text-shadow: 3.5px 3.5px 0 #0003b1, 
+                        -2.5px -2.5px 0 #f00;
+    }
+    50% {
+        text-shadow: 2.5px -2.5px 0 #0003b1, 
+                        -2.5px 2.5px 0 #f00;
+    }
+    75% {
+        text-shadow: 2.5px 2.5px 0 #0003b1, 
+                        2.5px -2.5px 0 #f00;
+    }
+}

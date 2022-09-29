@@ -1,0 +1,154 @@
+@media screen and (max-width: 1000px) {
+
+.about-text{
+    font-size: 15px;
+}
+.card{
+    width: 45%;
+}
+
+.title-section{
+    margin-top: 50vh;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+.Iam {
+ font-size: 23px;
+}
+
+.Iam b {
+    height: 30px;
+}
+
+
+
+@keyframes move{
+    0%  { top: 0px; }
+    20% { top: -33px; }
+    40% { top: -66px; }
+    60% { top: -99px; }
+    80% { top: -132px; }
+}
+    
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -33px; }
+    40% { top: -66px; }
+    60% { top: -99px; }
+    80% { top: -132px; }
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -33px; }
+    40% { top: -66px; }
+    60% { top: -99px; }
+    80% { top: -132px; }
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -33px; }
+    40% { top: -66px; }
+    60% { top: -99px; }
+    80% { top: -132px; }
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -33px; }
+    40% { top: -66px; }
+    60% { top: -99px; }
+    80% { top: -132px; }
+}
+
+
+    header{
+        padding: 20px;
+    }
+
+    header.sticky .title-of-sections {
+        left: 20px;
+    }
+    .max-width {
+        max-width: 100%;
+        max-width: 86%;
+    }
+    h1 {
+        line-height: 130%;
+    }
+    .hide-web {
+        display: none;
+    }
+    .toggle-mobile-second {
+        display: none;
+    }
+    .mobile-tap-area {
+        background: transparent;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .on-hover-40:hover {
+        margin-left: 0px;
+    }
+    .on-hover--40:hover {
+        margin-left: 0px;
+    }
+
+
+            /*About*/
+
+
+    .first-hello {
+        font-size: 30px;
+    }
+    .title-section {
+        padding: 50px 20px;
+    }
+    .skills-section {
+        padding-top: 50px;
+    }
+
+    .about-section{
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-text{
+        color: white;
+        max-width: 100%;
+        padding-right: 20px;
+    }
+    .img-c{
+        margin-top: 20px;
+        border-radius: 50%;
+        border: solid 1px rgb(0, 0, 0);
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        background-color: #000000;
+    }
+
+    .me-img{
+        width: 100%;
+    }
+
+    .card{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+
+
